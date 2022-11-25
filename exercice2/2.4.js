@@ -1,16 +1,10 @@
-var nombre = 2;
-var tab= Array();
-var i=0;
-      while(tab.length<10){
+var i = 0;
+while (i <= 10) {
 
-	  if(nombre % 2 == 0){
-    		  tab[i] = nombre;
-    		  i++;
-	  }
-	     nombre++;
-	  }
-	    for(i=0; i<tab.length; i++)
-	  {
-	    console.log("les nombres paires sont:"+tab);
-
-	  }
+    if (i % 2 == 0) {
+        console.log(i + " nombre pair " + i / 2);
+    } else {
+        console.log(i + " nombre impair " + i * 3);
+    }
+    i++;
+}

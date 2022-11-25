@@ -1,5 +1,4 @@
-var number = 1;
-while (number <= 10) {
-    console.log(number);
-    number += 1;
+for ( i=1; i<=10; i++){
+    if( i%2 ==0 )
+ console.log(i)
 }
