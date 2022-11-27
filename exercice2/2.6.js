@@ -11,7 +11,7 @@ if (number2 == 1) {
 } else if (number2 == 5) {
     console.log('Friday');
 } else if (number2 == 6) {
-    console.log('aturday');
+    console.log('saturday');
 } else if (number2 == 7) {
     console.log('sunday');
 }

@@ -1,12 +1,14 @@
-let user = prompt('enter a number named')
-function calculetteSam(user){
-    console.log(user)
-    for(i=1; i<=user; i++){
-       let newEntry = prompt('enter new number') 
-    }
-    console.log()
-    
+let newUser = 0;
+let newEntry = 0;
+let n = prompt('enter a number');
 
-    
-
+for (i = 1; i <= n; i++) {
+    newUser = prompt('enter new number');
+    newEntry = Number(newEntry) + Number(newUser);
 }
+console.log(newEntry)
+
+
+
+
+
