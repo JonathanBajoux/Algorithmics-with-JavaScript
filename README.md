@@ -1,1 +1,1 @@
-# Algorithmics-with-JavaScript-jonathan
+# Algorithmics-with-JavaScript
